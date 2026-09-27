@@ -7,39 +7,65 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/df6d6ad47f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="profile-card">
-        <div class="image-card">
-            <img src="/assets/images/profile.jpg" alt="Manikanta">
+
+    <article class="profile-card">
+
+        <header class="profile-header">
+            <div class="image-card">
+                <img src="/assets/images/profile.jpg" alt="Manikanta">
+            </div>
+
+            <div class="profile-content-card">
+                <h1 class="profile-name">Manikanta</h1>
+                <h2 class="profile-role">Frontend Developer</h2>
+            </div>
+        </header>
+
+        <nav class="profile-icons" aria-label="Social media links">
+            <a href="#" class="fb" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" class="tw" aria-label="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="#" class="ig" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" class="yt" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </nav>
+
+        <div class="profile-buttons">
+            <button type="button">Subscribe</button>
+            <button type="button">Message</button>
         </div>
-        <div class="profile-content-card">
-            <div class="profile-name">Manikanta</div>
-            <div class="profile-role">Frontend Developer</div>
-            <div class="profile-icons">
-                <i class="fa-brands fa-facebook-f fb"></i>
-                <i class="fa-brands fa-twitter tw"></i>
-                <i class="fa-brands fa-instagram ig"></i>
-                <i class="fa-brands fa-youtube yt"></i>
+
+        <div class="profile-interaction">
+
+            <div class="likes">
+                <i class="fa-regular fa-heart"></i>
+                <p>60k</p>
             </div>
-            <div class="profile-buttons">
-                <button type="submit">Subscribe</button>
-                <button type="submit">Message</button>
+
+            <div class="comments">
+                <i class="fa-regular fa-comment"></i>
+                <p>20k</p>
             </div>
-            <div class="profile-interaction">
-                <div class="likes">
-                    <i class="fa-regular fa-heart"></i>
-                    <p>60k</p>
-                </div>
-                <div class="comments">
-                    <i class="fa-regular fa-comment"></i>
-                    <p>20k</p>
-                </div>
-                <div class="share">
-                    <i class="fa-solid fa-share"></i>
-                    <p>12k</p>
-                </div>
+
+            <div class="share">
+                <i class="fa-solid fa-share"></i>
+                <p>12k</p>
             </div>
+
         </div>
-    </div>
+
+    </article>
+
 </body>
 </html>
